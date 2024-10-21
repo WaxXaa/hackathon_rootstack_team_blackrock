@@ -15,7 +15,7 @@
         {
           "id_boleto": 10,
           "nombre": "Entrada",
-          "descripcion": "Acceso a todas las áreas del evento.",
+          "descripcion": "El dinero de las entradas sera donado.",
           "aforo": 120,
           "precio": 3.00,
           "evento": 1
@@ -37,7 +37,7 @@
         {
           "id_boleto": 20,
           "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
+          "descripcion": "Boleto de acceso al evento.",
           "aforo": 2000,
           "precio": 5.00,
           "evento": 2
