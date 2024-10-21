@@ -11,13 +11,16 @@ export default function Navbar() {
         <div class="hidden lg:block">
           <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="#" class="flex items-center">Inicio</a>
+              <a href="../../" class="flex items-center">Inicio</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <a href="#" class="flex items-center">Nosotros</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <a href="#" class="flex items-center">comercio</a>
+            </li>
+            <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
+              <a href="../../Login" class="flex items-center">Login</a>
             </li>
           </ul>
         </div>
