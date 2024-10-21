@@ -2,99 +2,383 @@
   "Eventos": [
     {
       "id_evento": 1,
-      "titulo": "Conferencia de Innovación Tecnológica",
-      "descripcion": "Un evento sobre las últimas innovaciones en tecnología.",
-      "fecha_inicio": "3 nov, 9:00pm",
-      "fecha_fin": "2024-11-01T18:00:00",
-      "latitud": 37.7749295,
-      "longitud": -122.4194155,
-      "imagen_portada": "https://example.com/imagen1.jpg",
-      "mensaje": "¡No te pierdas la innovación del año!",
-      "organizador": 101,
-      "create_at": "2024-10-01T08:00:00",
-      "update_at": "2024-10-15T09:00:00",
+      "titulo": "Recoleccion Rides and Coffee",
+      "descripcion": "Recoleccion de jugetes de Navidad para donar",
+      "fecha_inicio": "21 nov, 8:00pm",
+      "fecha_fin": "21 nov, 11:00pm",
+      "ubicacion": "",
+      "latitud": 9.034482181342339,
+      "longitud": -79.44308616144887,
+      "imagenes": ["https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/458404372_1031677622087020_4843834476301571181_n.webp?stp=dst-jpg_e35_p640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNTAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=IMPy3x5UvgMQ7kNvgG4u0uO&_nc_gid=00470750f58f4e298171456d44cf9a96&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBMnl1abNTM3PNzVrD-NsNH2M1IctK2ntXH2IqXKQezPg&oe=671C3D68&_nc_sid=d885a2"],
+      "organizador": "Rides and Coffee",
       "boletos": [
         {
-          "id_boleto": 1,
-          "nombre": "Entrada General",
+          "id_boleto": 10,
+          "nombre": "Entrada",
           "descripcion": "Acceso a todas las áreas del evento.",
-          "aforo": 500,
-          "precio": 50.00,
-          "evento": 1
-        },
-        {
-          "id_boleto": 2,
-          "nombre": "Entrada VIP",
-          "descripcion": "Acceso a áreas exclusivas y servicios especiales.",
-          "aforo": 100,
-          "precio": 150.00,
+          "aforo": 120,
+          "precio": 3.00,
           "evento": 1
         }
       ]
     },
     {
       "id_evento": 2,
-      "titulo": "Festival de Música Electrónica",
-      "descripcion": "Disfruta de una noche de música electrónica con los mejores DJs.",
-      "fecha_inicio": "2024-12-10T20:00:00",
-      "fecha_fin": "2024-12-11T03:00:00",
-      "latitud": 34.0522342,
-      "longitud": -118.2436849,
-      "imagen_portada": "https://example.com/imagen2.jpg",
-      "mensaje": "¡Siente el ritmo de la música electrónica!",
-      "organizador": 102,
-      "create_at": "2024-10-01T08:00:00",
-      "update_at": "2024-10-15T09:00:00",
+      "titulo": "Tour Novelas Racing",
+      "descripcion": "Después de 4 exitosas fechas, vuelve, el Auto Show más esperado en Panamá! Tour Novelas Racing by GabyNovo Nos apoderamos del Centro de Convenciones Atlapa. Exhibición de autos, productos y servicios. Solo faltas tu para seguir haciendo historia.",
+      "fecha_inicio": "1 nov, 2:00pm",
+      "fecha_fin": "3 nov, 6:00pm",
+      "ubicacion": "Centro de Convenciones Atlapa",
+      "latitud": 8.989796452686281,
+      "longitud": -79.50011527679074,
+      "imagenes": ["https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/449035756_1478209619755842_7180715145125433493_n.webp?stp=dst-jpg_e35_s640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=d2HeC5jMQTgQ7kNvgGmY1Gy&_nc_gid=65ad711e0f174f35945ccdf37a36fa46&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_Kr3BlwOjirCPyHbLj00F2gNdMWXHdFCAseH9zsql6w&oe=671C44CA&_nc_sid=d885a2"],
+      "organizador": "",
       "boletos": [
         {
-          "id_boleto": 3,
+          "id_boleto": 20,
           "nombre": "Entrada General",
           "descripcion": "Acceso general al festival.",
           "aforo": 2000,
-          "precio": 80.00,
-          "evento": 2
-        },
-        {
-          "id_boleto": 4,
-          "nombre": "Entrada VIP",
-          "descripcion": "Acceso a zonas exclusivas.",
-          "aforo": 300,
-          "precio": 250.00,
+          "precio": 5.00,
           "evento": 2
         }
       ]
     },
     {
       "id_evento": 3,
-      "titulo": "Feria del Libro",
+      "titulo": "GT Challenge Americas",
       "descripcion": "Un evento para los amantes de los libros con autores de renombre.",
-      "fecha_inicio": "2024-11-15T09:00:00",
-      "fecha_fin": "2024-11-17T19:00:00",
+      "fecha_inicio": "1 nov, 2:00pm",
+      "fecha_fin": "3 nov, 6:00pm",
+      "ubicacion": "Autodromo de Panama",
       "latitud": 40.7127753,
       "longitud": -74.0059728,
-      "imagen_portada": "https://example.com/imagen3.jpg",
+      "imagenes": "",
       "mensaje": "Explora nuevos libros y conoce a tus autores favoritos.",
-      "organizador": 103,
-      "create_at": "2024-10-01T08:00:00",
-      "update_at": "2024-10-15T09:00:00",
+      "organizador": "",
       "boletos": [
         {
-          "id_boleto": 5,
-          "nombre": "Entrada General",
+          "id_boleto": 30,
+          "nombre": "Grand Stand",
           "descripcion": "Acceso a la feria durante los tres días.",
           "aforo": 1500,
           "precio": 20.00,
           "evento": 3
         },
         {
-          "id_boleto": 6,
-          "nombre": "Entrada Premium",
+          "id_boleto": 31,
+          "nombre": "Curva 6",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+        {
+          "id_boleto": 32,
+          "nombre": "Lounge 1",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+        {
+          "id_boleto": 33,
+          "nombre": "Lounge 2",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+        {
+          "id_boleto": 34,
+          "nombre": "Lounge 3",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+        {
+          "id_boleto": 35,
+          "nombre": "Estacionamiento Graderias",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+        {
+          "id_boleto": 36,
+          "nombre": "Estacionamiento Paddock",
           "descripcion": "Acceso a charlas exclusivas con autores.",
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
         }
       ]
+    },
+    {
+      "id_evento": 4,
+      "titulo": "Acampemos - Summit",
+      "descripcion": "Actividades recreativas y Educativas",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 9.06551679758845,
+      "longitud": -79.64963904863998,
+      "imagenes": "https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/449035756_1478209619755842_7180715145125433493_n.webp?stp=dst-jpg_e35_s640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=d2HeC5jMQTgQ7kNvgGmY1Gy&_nc_gid=65ad711e0f174f35945ccdf37a36fa46&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_Kr3BlwOjirCPyHbLj00F2gNdMWXHdFCAseH9zsql6w&oe=671C44CA&_nc_sid=d885a2",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 20,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 50,
+          "precio": 8.00,
+          "evento": 4
+        },
+      ]
+    },
+    {
+      "id_evento": 5,
+      "titulo": "15 Años sintiendo el efecto",
+      "descripcion": "Después de 4 exitosas fechas, vuelve, el Auto Show más esperado en Panamá‼️ Tour Novelas Racing by GabyNovo Nos apoderamos del Centro de Convenciones Atlapa. Exhibición de autos, productos y servicios. Solo faltas tu para seguir haciendo historia.",
+      "fecha_inicio": "2024-12-10T20:00:00",
+      "fecha_fin": "2024-12-11T03:00:00",
+      "ubicacion": ,
+      "latitud": 8.940399610141583,
+      "longitud": -79.55106559721074,
+      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 20,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 5
+        },
+      ]
+    },
+    {
+      "id_evento": 6,
+      "titulo": "Dimelo Flow Birthday Celebration",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.940399610141583,
+      "longitud": -79.55106559721074,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 60,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 6
+        },
+      ]
+    },
+    {
+      "id_evento": 7,
+      "titulo": "TunUp BDay by Chamaco",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.940399610141583,
+      "longitud": -79.55106559721074,
+      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1729300230/8fab145bf2f3412b82fa6b477edff5fd.jpg.jpg",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 70,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 7
+        },
+      ]
+    },
+    {
+      "id_evento": 8,
+      "titulo": "Bad Bunny - Sech Tribute",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.940399610141583,
+      "longitud": -79.55106559721074,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 80,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 8
+        },
+      ]
+    },
+    {
+      "id_evento": 9,
+      "titulo": "Aventura Cerrando . Ciclos",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 9.040626826223216,
+      "longitud": -79.54585420137316,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 90,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 9
+        },
+      ]
+    },
+    {
+      "id_evento": 10,
+      "titulo": "Bad Bunny World's Hottest Tour",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 9.035876130567978,
+      "longitud": -79.46948854220851,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 100,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 10
+        },
+      ]
+    },
+    {
+      "id_evento": 11,
+      "titulo": "Ferxxo NitroJam Tour",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.939322248332081,
+      "longitud": -79.54579663979568,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 110,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 11
+        },
+      ]
+    },
+    {
+      "id_evento": 12,
+      "titulo": "The Joke Bureau",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.977899694218285,
+      "longitud": -79.51212657425134,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 120,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 12
+        },
+      ]
+    },
+    {
+      "id_evento": 13,
+      "titulo": "Stand-Up Comedy Sessions",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.977899694218285,
+      "longitud": -79.51212657425134,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 60,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 13
+        },
+      ]
+    },
+    {
+      "id_evento": 14,
+      "titulo": "Sin ganas de crecer",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 9.035876130567978,
+      "longitud": -79.46948854220851,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 60,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 14
+        },
+      ]
+    },
+    {
+      "id_evento": 15,
+      "titulo": "Closer",
+      "descripcion": "",
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 11:00pm",
+      "ubicacion": ,
+      "latitud": 8.986286825542722,
+      "longitud": -79.52370029666683,
+      "imagenes": "",
+      "organizador": "",
+      "boletos": [
+        {
+          "id_boleto": 60,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 5.00,
+          "evento": 15
+        },
+      ]
     }
+    
   ]
 }
