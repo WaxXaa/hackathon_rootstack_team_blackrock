@@ -4,23 +4,23 @@ export default function Navbar() {
   return (
     <nav class="block w-full max-w-screen-lg px-4 py-2 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-3 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
       <div class="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
-        <a href="#"
-          class="mr-4 block cursor-pointer py-1.5 text-base text-slate-800 font-semibold">
+        <div href="#"
+          class="mr-4 block py-1.5 text-base text-slate-800 font-semibold">
           PanaEventos
-        </a>
+        </div>
         <div class="hidden lg:block">
           <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <a href="../../" class="flex items-center">Inicio</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="#" class="flex items-center">Nosotros</a>
+              <a href="../../Eventos" class="flex items-center">Comercio</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="#" class="flex items-center">comercio</a>
+              <a href="../../Nosotros" class="flex items-center">Nosotros</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="../../Login" class="flex items-center">Login</a>
+              <a href="../../Login" class="flex items-center">Iniciar Sesión</a>
             </li>
           </ul>
         </div>
