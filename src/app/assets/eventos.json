@@ -72,7 +72,7 @@
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
-        }
+        },
         {
           "id_boleto": 32,
           "nombre": "Lounge 1",
@@ -80,7 +80,7 @@
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
-        }
+        },
         {
           "id_boleto": 33,
           "nombre": "Lounge 2",
@@ -88,7 +88,7 @@
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
-        }
+        },
         {
           "id_boleto": 34,
           "nombre": "Lounge 3",
@@ -96,7 +96,7 @@
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
-        }
+        },
         {
           "id_boleto": 35,
           "nombre": "Estacionamiento Graderias",
@@ -104,7 +104,7 @@
           "aforo": 200,
           "precio": 50.00,
           "evento": 3
-        }
+        },
         {
           "id_boleto": 36,
           "nombre": "Estacionamiento Paddock",
