@@ -20,7 +20,7 @@ export default function Navbar() {
               <a href="#" class="flex items-center">comercio</a>
             </li>
             <li class="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="../../Login/" class="flex items-center">Login</a>
+              <a href="../../Login" class="flex items-center">Login</a>
             </li>
           </ul>
         </div>
