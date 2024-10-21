@@ -1,0 +1,100 @@
+{
+  "Eventos": [
+    {
+      "id_evento": 1,
+      "titulo": "Conferencia de Innovación Tecnológica",
+      "descripcion": "Un evento sobre las últimas innovaciones en tecnología.",
+      "fecha_inicio": "3 nov, 9:00pm",
+      "fecha_fin": "2024-11-01T18:00:00",
+      "latitud": 37.7749295,
+      "longitud": -122.4194155,
+      "imagen_portada": "https://example.com/imagen1.jpg",
+      "mensaje": "¡No te pierdas la innovación del año!",
+      "organizador": 101,
+      "create_at": "2024-10-01T08:00:00",
+      "update_at": "2024-10-15T09:00:00",
+      "boletos": [
+        {
+          "id_boleto": 1,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso a todas las áreas del evento.",
+          "aforo": 500,
+          "precio": 50.00,
+          "evento": 1
+        },
+        {
+          "id_boleto": 2,
+          "nombre": "Entrada VIP",
+          "descripcion": "Acceso a áreas exclusivas y servicios especiales.",
+          "aforo": 100,
+          "precio": 150.00,
+          "evento": 1
+        }
+      ]
+    },
+    {
+      "id_evento": 2,
+      "titulo": "Festival de Música Electrónica",
+      "descripcion": "Disfruta de una noche de música electrónica con los mejores DJs.",
+      "fecha_inicio": "2024-12-10T20:00:00",
+      "fecha_fin": "2024-12-11T03:00:00",
+      "latitud": 34.0522342,
+      "longitud": -118.2436849,
+      "imagen_portada": "https://example.com/imagen2.jpg",
+      "mensaje": "¡Siente el ritmo de la música electrónica!",
+      "organizador": 102,
+      "create_at": "2024-10-01T08:00:00",
+      "update_at": "2024-10-15T09:00:00",
+      "boletos": [
+        {
+          "id_boleto": 3,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso general al festival.",
+          "aforo": 2000,
+          "precio": 80.00,
+          "evento": 2
+        },
+        {
+          "id_boleto": 4,
+          "nombre": "Entrada VIP",
+          "descripcion": "Acceso a zonas exclusivas.",
+          "aforo": 300,
+          "precio": 250.00,
+          "evento": 2
+        }
+      ]
+    },
+    {
+      "id_evento": 3,
+      "titulo": "Feria del Libro",
+      "descripcion": "Un evento para los amantes de los libros con autores de renombre.",
+      "fecha_inicio": "2024-11-15T09:00:00",
+      "fecha_fin": "2024-11-17T19:00:00",
+      "latitud": 40.7127753,
+      "longitud": -74.0059728,
+      "imagen_portada": "https://example.com/imagen3.jpg",
+      "mensaje": "Explora nuevos libros y conoce a tus autores favoritos.",
+      "organizador": 103,
+      "create_at": "2024-10-01T08:00:00",
+      "update_at": "2024-10-15T09:00:00",
+      "boletos": [
+        {
+          "id_boleto": 5,
+          "nombre": "Entrada General",
+          "descripcion": "Acceso a la feria durante los tres días.",
+          "aforo": 1500,
+          "precio": 20.00,
+          "evento": 3
+        },
+        {
+          "id_boleto": 6,
+          "nombre": "Entrada Premium",
+          "descripcion": "Acceso a charlas exclusivas con autores.",
+          "aforo": 200,
+          "precio": 50.00,
+          "evento": 3
+        }
+      ]
+    }
+  ]
+}
