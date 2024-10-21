@@ -8,7 +8,7 @@
       "fecha_fin": "2024-11-01T18:00:00",
       "latitud": 37.7749295,
       "longitud": -122.4194155,
-      "imagen_portada": "https://example.com/imagen1.jpg",
+      "imagenes": ["https://example.com/imagen1.jpg", ""],
       "mensaje": "¡No te pierdas la innovación del año!",
       "organizador": 101,
       "create_at": "2024-10-01T08:00:00",
