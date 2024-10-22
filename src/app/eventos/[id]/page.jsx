@@ -90,13 +90,12 @@ const EventDetails = () => {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
           <div className="relative h-96">
             <Carousel className="rounded-xl">
-              {event.imagenes.map((image, index) => (
+              {(Array.isArray(event.imagenes) ? event.imagenes : [event.imagenes]).map((image, index) => (
                 <img
                   key={index}
                   src={image}
-                  alt={"image" + index}
-
-                  className="h-full w-full object-cover"
+                  alt={`Imagen ${index}`}
+                  className="w-full h-auto"
                 />
               ))}
 
@@ -203,7 +202,7 @@ const EventDetails = () => {
           )}
         </div>
       </div>
-      {showCart && <Cart boletos={Object.values(selectedTickets)} open={showCart} setOpen={setShowCart}/>}
+      {showCart && <Cart boletos={Object.values(selectedTickets)} open={showCart} setOpen={setShowCart} />}
     </div>
   );
 };
