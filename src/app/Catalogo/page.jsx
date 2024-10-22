@@ -8,7 +8,7 @@ import Navbar from '../../components/navbar/Navbar'; // Importa el Navbar
 // Lazy load the EventCard component
 const EventCard = dynamic(() => import('../../components/event/EventCard.jsx'), {
   loading: () => <p>Loading card...</p>,
-  ssr: false 
+  ssr: false
 });
 
 const EventCatalog = () => {
@@ -65,15 +65,17 @@ const EventCatalog = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <Navbar /> {/* Agrega el Navbar aquí */}
-      <h1 className="text-3xl font-bold mb-6">Eventos Disponibles</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {events.map((event) => (
-          <EventCard
-            key={event.id_evento}
-            event={event}
-            onClick={handleEventSelect}
-          />
-        ))}
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold mb-6">Eventos Disponibles</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {events.map((event) => (
+            <EventCard
+              key={event.id_evento}
+              event={event}
+              onClick={handleEventSelect}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
