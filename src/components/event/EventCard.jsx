@@ -33,3 +33,4 @@ const EventCard = ({ event, onClick }) => {
     </div>
   );
 };
+export default EventCard

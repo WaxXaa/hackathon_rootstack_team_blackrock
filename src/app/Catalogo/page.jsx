@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-
+import { EventCard } from "../../components/event/EventCard";
 const EventCatalog = () => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -9,7 +9,7 @@ const EventCatalog = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch('../../assets/eventos.json');
+        const response = await fetch('/assets/eventos.json');
         if (!response.ok) {
           throw new Error('Failed to fetch events');
         }
