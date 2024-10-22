@@ -28,13 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <AuthProvider>
-        <NavBar />
-        <main>{children}</main>
-        <Footer />
+          <NavBar />
+          <main className="flex-1 flex items-center justify-center">{children}</main>
+          <Footer />
         </AuthProvider>
       </body>
     </html>
