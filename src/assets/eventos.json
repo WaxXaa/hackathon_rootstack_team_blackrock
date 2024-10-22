@@ -121,7 +121,7 @@
       "descripcion": "Actividades recreativas y Educativas",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "parque summit",
       "latitud": 9.06551679758845,
       "longitud": -79.64963904863998,
       "imagenes": "https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/449035756_1478209619755842_7180715145125433493_n.webp?stp=dst-jpg_e35_s640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=d2HeC5jMQTgQ7kNvgGmY1Gy&_nc_gid=65ad711e0f174f35945ccdf37a36fa46&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_Kr3BlwOjirCPyHbLj00F2gNdMWXHdFCAseH9zsql6w&oe=671C44CA&_nc_sid=d885a2",
@@ -134,16 +134,16 @@
           "aforo": 50,
           "precio": 8.00,
           "evento": 4
-        },
+        }
       ]
     },
     {
       "id_evento": 5,
       "titulo": "15 Años sintiendo el efecto",
       "descripcion": "Después de 4 exitosas fechas, vuelve, el Auto Show más esperado en Panamá‼️ Tour Novelas Racing by GabyNovo Nos apoderamos del Centro de Convenciones Atlapa. Exhibición de autos, productos y servicios. Solo faltas tu para seguir haciendo historia.",
-      "fecha_inicio": "2024-12-10T20:00:00",
-      "fecha_fin": "2024-12-11T03:00:00",
-      "ubicacion": ,
+      "fecha_inicio": "3 nov, 8:00pm",
+      "fecha_fin": "3 nov, 8:00pm",
+      "ubicacion": "Centro de Convenciones Atlapa",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg",
@@ -156,7 +156,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 5
-        },
+        }
       ]
     },
     {
@@ -165,7 +165,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "a,ador, chill out",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
       "imagenes": "",
@@ -178,7 +178,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 6
-        },
+        }
       ]
     },
     {
@@ -187,7 +187,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1729300230/8fab145bf2f3412b82fa6b477edff5fd.jpg.jpg",
@@ -200,7 +200,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 7
-        },
+        }
       ]
     },
     {
@@ -209,7 +209,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "chill out",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
       "imagenes": "",
@@ -222,7 +222,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 8
-        },
+        }
       ]
     },
     {
@@ -231,7 +231,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "rod carew",
       "latitud": 9.040626826223216,
       "longitud": -79.54585420137316,
       "imagenes": "",
@@ -244,7 +244,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 9
-        },
+        }
       ]
     },
     {
@@ -253,7 +253,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "romel fernandez",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
       "imagenes": "",
@@ -266,7 +266,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 10
-        },
+        }
       ]
     },
     {
@@ -275,7 +275,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "figali convention center",
       "latitud": 8.939322248332081,
       "longitud": -79.54579663979568,
       "imagenes": "",
@@ -288,7 +288,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 11
-        },
+        }
       ]
     },
     {
@@ -297,7 +297,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "teatro pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
       "imagenes": "",
@@ -310,7 +310,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 12
-        },
+        }
       ]
     },
     {
@@ -319,7 +319,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "teatro pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
       "imagenes": "",
@@ -332,7 +332,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 13
-        },
+        }
       ]
     },
     {
@@ -341,7 +341,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "teatro la estacion",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
       "imagenes": "",
@@ -354,7 +354,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 14
-        },
+        }
       ]
     },
     {
@@ -363,7 +363,7 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": ,
+      "ubicacion": "teatro la estacion",
       "latitud": 8.986286825542722,
       "longitud": -79.52370029666683,
       "imagenes": "",
@@ -376,7 +376,7 @@
           "aforo": 2000,
           "precio": 5.00,
           "evento": 15
-        },
+        }
       ]
     }
     
