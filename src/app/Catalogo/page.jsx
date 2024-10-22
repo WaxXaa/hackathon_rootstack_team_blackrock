@@ -36,7 +36,7 @@ const EventCatalog = () => {
   }, []);
 
   const handleEventSelect = (event) => {
-    router.push(`eventos/${event.id_evento}`);
+    router.push(`Catalogo/${event.id_evento}`);
   };
 
   if (loading) {
