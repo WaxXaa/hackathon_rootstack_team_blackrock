@@ -1,7 +1,9 @@
 'use client'
 import { useState, useEffect } from 'react';
 import EventCard from "../../components/event/EventCard.jsx";
+import { useRouter } from 'next/navigation';
 const EventCatalog = () => {
+  const router = useRouter();
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -26,7 +28,7 @@ const EventCatalog = () => {
   }, []);
 
   const handleEventSelect = (event) => {
-    console.log('Selected event:', event);
+    router.push(`eventos/${event.id_evento}`);
   };
 
   if (loading) {
