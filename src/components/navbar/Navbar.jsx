@@ -2,13 +2,16 @@ export default function Navbar() {
   return (
     <nav className="block w-full max-w-screen-lg px-6 py-4 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-4 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
       <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
-        <div
-          href="#"
-          className="mr-4 block py-2 text-xl text-slate-800 font-semibold"> {/* Ajustar tamaño de texto aquí */}
-          PanaEventos
+        <div className="flex items-center mr-4"> {/* Added flex container */}
+          <img
+            alt="PanaEventos"
+            src="/media/Logo.svg?color=indigo&shade=1000"
+            className="h-10 w-auto mr-2" // Adjust height as needed and add margin
+          />
+          <span className="text-xl font-semibold">PanaEventos</span> {/* Changed to span for better semantics */}
         </div>
         <div className="hidden lg:block">
-          <ul className="flex flex-col gap-4 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8"> {/* Ajustar el espacio */}
+          <ul className="flex flex-col gap-4 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
             <li className="flex items-center p-2 text-base gap-x-2 text-slate-600">
               <a href="../../" className="flex items-center">Inicio</a>
             </li>
