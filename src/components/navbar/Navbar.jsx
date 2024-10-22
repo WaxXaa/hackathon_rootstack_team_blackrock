@@ -14,7 +14,7 @@ export default function Navbar() {
               <a href="../../" className="flex items-center">Inicio</a>
             </li>
             <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
-              <a href="../../eventos" className="flex items-center">Catalogo</a>
+              <a href="../../Catalogo" className="flex items-center">Catalogo</a>
             </li>
             <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <a href="../../Nosotros" className="flex items-center">Nosotros</a>
