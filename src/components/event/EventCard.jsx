@@ -4,10 +4,10 @@ const EventCard = ({ event, onClick }) => {
     return Math.min(...event.boletos.map(ticket => ticket.precio));
   };
 
-  // const getImageUrl = () => {
-  //   if (!event.imagenes) return '/api/placeholder/400/300';
-  //   return Array.isArray(event.imagenes) ? event.imagenes[0] : event.imagenes;
-  // };
+  const getImageUrl = () => {
+    if (!event.imagenes) return '/api/placeholder/400/300';
+    return Array.isArray(event.imagenes) ? event.imagenes[0] : event.imagenes;
+  };
 
   return (
     <div
@@ -17,7 +17,7 @@ const EventCard = ({ event, onClick }) => {
       <div className="relative h-48">
         {console.log(event.imagenes[0])}
         <img
-          src={event.imagenes[0]}
+          src={getImageUrl()}
           alt={event.titulo}
           className="w-full h-full object-cover"
         />
