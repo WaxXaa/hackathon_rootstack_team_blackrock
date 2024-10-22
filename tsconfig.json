@@ -34,7 +34,7 @@
     ".next/types/**/*.ts",
     "src/app/page.jsx",
     "src/app/layout.tsx",
-    "src/app/eventos/page.jsx"
+    "src/app/Catalogo/page.jsx"
 , "src/app/Cart/page.jsx"  ],
   "exclude": [
     "node_modules"
