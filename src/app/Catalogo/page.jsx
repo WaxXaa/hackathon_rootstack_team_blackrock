@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { EventCard } from "../../components/event/EventCard";
+import EventCard from "../../components/event/EventCard.jsx";
 const EventCatalog = () => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -10,11 +10,12 @@ const EventCard = ({ event, onClick }) => {
   // };
 
   return (
-    <div 
+    <div
       onClick={() => onClick(event)}
       className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform hover:scale-105"
     >
       <div className="relative h-48">
+        {console.log(event.imagenes[0])}
         <img
           src={event.imagenes[0]}
           alt={event.titulo}
@@ -24,7 +25,7 @@ const EventCard = ({ event, onClick }) => {
       <div className="p-4">
         <h3 className="font-semibold text-lg mb-2 truncate">{event.titulo}</h3>
         <div className="flex justify-between items-center text-sm text-gray-600">
-          <span>{formatDate(event.fecha_inicio)}</span>
+          <span>{event.fecha_inicio}</span>
           <span className="font-medium text-green-600">
             ${getMinPrice().toFixed(2)}
           </span>
