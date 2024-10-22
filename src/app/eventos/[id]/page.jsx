@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Carousel } from "@material-tailwind/react";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
+import Cart from "../../Cart/page.jsx";
 
 
 const EventDetails = () => {
@@ -11,7 +11,8 @@ const EventDetails = () => {
   const [event, setEvent] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedTicket, setSelectedTicket] = useState(null);
+  const [selectedTickets, setSelectedTickets] = useState({});
+  const [showCart, setShowCart] = useState(false);
 
   useEffect(() => {
     const fetchEvent = async () => {
@@ -50,6 +51,36 @@ const EventDetails = () => {
       </div>
     );
   }
+  // Object to store selected ticket quantities
+
+  // Handle change in the quantity of tickets for a specific ticket type
+  const handleQuantityChange = (boleto, quantity) => {
+    // Ensure the quantity doesn't exceed the available tickets
+    if (quantity <= boleto.aforo) {
+      setSelectedTickets({
+        ...selectedTickets,
+        [boleto.id_boleto]: {
+          nombre: boleto.nombre,
+          precio: boleto.precio,
+          cantidad: quantity
+        }
+      });
+      setError(null);
+    } else {
+      setError(`La cantidad no puede ser mayor a ${boleto.aforo}`);
+    }
+  };
+
+  // Function to handle purchase
+  const handlePurchase = () => {
+    if (Object.keys(selectedTickets).length === 0) {
+      setError("Debes seleccionar al menos un boleto.");
+      return;
+    }
+
+    // Continue with the purchase logic...
+    setShowCart(true)
+  };
 
 
   return (
@@ -57,7 +88,7 @@ const EventDetails = () => {
       <div className="container mx-auto px-4 py-8">
         {/* Event Header */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
-          <div className="relative h-72">
+          <div className="relative h-96">
             <Carousel className="rounded-xl">
               {event.imagenes.map((image, index) => (
                 <img
@@ -91,9 +122,9 @@ const EventDetails = () => {
               </div>
             )}
             <iframe
-              className="relative h-72"
+              className="relative h-72 w-1/2"
               src={event.mapa}
-              width="600"
+
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
@@ -112,41 +143,67 @@ const EventDetails = () => {
         <div className="bg-white rounded-lg shadow-lg p-6">
           <h2 className="text-2xl font-bold mb-6">Ticket Information</h2>
           <div className="space-y-4">
-            {event.boletos.map((ticket) => (
+            {event.boletos.map((boleto) => (
               <div
-                key={ticket.id_boleto}
-                className={`border rounded-lg p-4 cursor-pointer transition-colors ${selectedTicket?.id_boleto === ticket.id_boleto
+                key={boleto.id_boleto}
+                className={`border rounded-lg p-4 transition-colors ${selectedTickets[boleto.id_boleto]?.cantidad
                   ? 'border-blue-500 bg-blue-50'
                   : 'border-gray-200 hover:border-blue-300'
                   }`}
-                onClick={() => setSelectedTicket(ticket)}
               >
                 <div className="flex justify-between items-center">
                   <div>
-                    <h3 className="font-semibold text-lg">{ticket.nombre}</h3>
-                    <p className="text-gray-600 text-sm">{ticket.descripcion}</p>
+                    <h3 className="font-semibold text-lg">{boleto.nombre}</h3>
+                    <p className="text-gray-600 text-sm">{boleto.descripcion}</p>
                     <div className="mt-2 text-sm">
                       <span className="text-gray-600">Disponibles: </span>
-                      <span className="font-medium">{ticket.aforo}</span>
+                      <span className="font-medium">{boleto.aforo}</span>
                     </div>
                   </div>
                   <div className="text-xl font-bold text-blue-600">
-                    ${ticket.precio.toFixed(2)}
+                    ${boleto.precio.toFixed(2)}
                   </div>
+                </div>
+
+                {/* Quantity Selector */}
+                <div className="mt-4">
+                  <label htmlFor={`quantity-${boleto.id_boleto}`} className="block text-sm font-medium text-gray-700">
+                    Cantidad
+                  </label>
+                  <input
+                    type="number"
+                    id={`quantity-${boleto.id_boleto}`}
+                    min="0"
+                    max={boleto.aforo}
+                    value={selectedTickets[boleto.id_boleto]?.cantidad || ''}
+                    onChange={(e) => handleQuantityChange(boleto, parseInt(e.target.value) || 0)}
+                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md"
+                  />
                 </div>
               </div>
             ))}
           </div>
 
-          {selectedTicket && (
+          {error && (
+            <div className="mt-4 text-red-600">
+              {error}
+            </div>
+          )}
+
+          {/* Purchase Button */}
+          {Object.keys(selectedTickets).length > 0 && (
             <div className="mt-8">
-              <button className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                Comprar Ticket
+              <button
+                className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                onClick={handlePurchase}
+              >
+                Comprar Tickets
               </button>
             </div>
           )}
         </div>
       </div>
+      {showCart && <Cart boletos={Object.values(selectedTickets)} open={showCart} setOpen={setShowCart}/>}
     </div>
   );
 };

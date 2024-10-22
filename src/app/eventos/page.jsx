@@ -1,7 +1,15 @@
 'use client'
+
 import { useState, useEffect } from 'react';
-import EventCard from "../../components/event/EventCard.jsx";
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
+
+// Lazy load the EventCard component
+const EventCard = dynamic(() => import('../../components/event/EventCard.jsx'), {
+  loading: () => <p>Loading card...</p>,
+  ssr: false 
+});
+
 const EventCatalog = () => {
   const router = useRouter();
   const [events, setEvents] = useState([]);

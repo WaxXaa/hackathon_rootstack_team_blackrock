@@ -6,16 +6,15 @@
       "descripcion": "Recoleccion de jugetes de Navidad para donar",
       "fecha_inicio": "21 nov, 8:00pm",
       "fecha_fin": "21 nov, 11:00pm",
-      "ubicacion": "",
+      "ubicacion": "COS Sports Plaza",
       "latitud": 9.034482181342339,
       "longitud": -79.44308616144887,
-      "imagenes": "https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/458404372_1031677622087020_4843834476301571181_n.webp?stp=dst-jpg_e35_p640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNTAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=IMPy3x5UvgMQ7kNvgG4u0uO&_nc_gid=00470750f58f4e298171456d44cf9a96&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBMnl1abNTM3PNzVrD-NsNH2M1IctK2ntXH2IqXKQezPg&oe=671C3D68&_nc_sid=d885a2",
+      "imagenes": "https://i.imgur.com/83OJ8TW.jpeg",
       "organizador": "Rides and Coffee",
       "boletos": [
         {
           "id_boleto": 10,
-          "nombre": "Entrada",
-          "descripcion": "El dinero de las entradas sera donado.",
+          "nombre": "Donación",
           "aforo": 120,
           "precio": 3.00,
           "evento": 1
@@ -32,14 +31,13 @@
       "latitud": 8.989796452686281,
       "longitud": -79.50011527679074,
       "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8180311567053!2d-79.50296827498168!3d8.98888599107083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca909348b6589%3A0xbc82fb557d6656e4!2sCentro%20de%20Convenciones%20Atlapa!5e0!3m2!1ses-419!2spa!4v1729574177075!5m2!1ses-419!2spa",
-      "imagenes": ["https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600","https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg"],
+      "imagenes": ["https://i.imgur.com/tMZwT8Z.jpeg","https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg"],
       "organizador": "",
       "boletos": [
         {
           "id_boleto": 20,
           "nombre": "Entrada General",
-          "descripcion": "Boleto de acceso al evento.",
-          "aforo": 2000,
+          "aforo": 1760,
           "precio": 5.00,
           "evento": 2
         }
@@ -54,64 +52,57 @@
       "ubicacion": "Autodromo de Panama",
       "latitud": 40.7127753,
       "longitud": -74.0059728,
-      "imagenes": "",
+      "imagenes": ["https://i.imgur.com/qz4eFil.jpeg, https://i.imgur.com/cwy31xY.jpeg"],
       "mensaje": "Explora nuevos libros y conoce a tus autores favoritos.",
       "organizador": "",
       "boletos": [
         {
           "id_boleto": 30,
           "nombre": "Grand Stand",
-          "descripcion": "Acceso a la feria durante los tres días.",
-          "aforo": 1500,
+          "aforo": 300,
           "precio": 20.00,
           "evento": 3
         },
         {
           "id_boleto": 31,
           "nombre": "Curva 6",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 150,
+          "precio": 56.00,
           "evento": 3
         },
         {
           "id_boleto": 32,
           "nombre": "Lounge 1",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 70,
+          "precio": 150.00,
           "evento": 3
         },
         {
           "id_boleto": 33,
           "nombre": "Lounge 2",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 80,
+          "precio": 142.00,
           "evento": 3
         },
         {
           "id_boleto": 34,
           "nombre": "Lounge 3",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 0,
+          "precio": 200.00,
           "evento": 3
         },
         {
           "id_boleto": 35,
           "nombre": "Estacionamiento Graderias",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 430,
+          "precio": 15.00,
           "evento": 3
         },
         {
           "id_boleto": 36,
           "nombre": "Estacionamiento Paddock",
-          "descripcion": "Acceso a charlas exclusivas con autores.",
-          "aforo": 200,
-          "precio": 50.00,
+          "aforo": 125,
+          "precio": 40.00,
           "evento": 3
         }
       ]
@@ -120,19 +111,18 @@
       "id_evento": 4,
       "titulo": "Acampemos - Summit",
       "descripcion": "Actividades recreativas y Educativas",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "parque summit",
+      "fecha_inicio": "13 dic, 8:00am",
+      "fecha_fin": "13 dic, 6:00pm",
+      "ubicacion": "Parque Municipal Summit",
       "latitud": 9.06551679758845,
       "longitud": -79.64963904863998,
-      "imagenes": "https://instagram.fpty1-1.fna.fbcdn.net/v/t51.29350-15/449035756_1478209619755842_7180715145125433493_n.webp?stp=dst-jpg_e35_s640x640_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fpty1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=d2HeC5jMQTgQ7kNvgGmY1Gy&_nc_gid=65ad711e0f174f35945ccdf37a36fa46&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_Kr3BlwOjirCPyHbLj00F2gNdMWXHdFCAseH9zsql6w&oe=671C44CA&_nc_sid=d885a2",
+      "imagenes": "https://i.imgur.com/qxIeWOX.jpeg",
       "organizador": "",
       "boletos": [
         {
           "id_boleto": 20,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 50,
+          "nombre": "Entrada",
+          "aforo": 70,
           "precio": 8.00,
           "evento": 4
         }
@@ -141,21 +131,20 @@
     {
       "id_evento": 5,
       "titulo": "15 Años sintiendo el efecto",
-      "descripcion": "Después de 4 exitosas fechas, vuelve, el Auto Show más esperado en Panamá‼️ Tour Novelas Racing by GabyNovo Nos apoderamos del Centro de Convenciones Atlapa. Exhibición de autos, productos y servicios. Solo faltas tu para seguir haciendo historia.",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 8:00pm",
-      "ubicacion": "Centro de Convenciones Atlapa",
+      "descripcion": "15 Años sintiendo el efecto",
+      "fecha_inicio": "17 dic, 8:00pm",
+      "fecha_fin": "17 dic, 8:00pm",
+      "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
-      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg",
-      "organizador": "",
+      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1723265312/3103ea61346a4238ae0a4655340228b4.jpg.jpg",
+      "organizador": "Chillout",
       "boletos": [
         {
           "id_boleto": 20,
           "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 256,
+          "precio": 15.00,
           "evento": 5
         }
       ]
@@ -163,21 +152,20 @@
     {
       "id_evento": 6,
       "titulo": "Dimelo Flow Birthday Celebration",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "a,ador, chill out",
+      "descripcion": "Dimelo Flow Birthday Celebration",
+      "fecha_inicio": "14 dic, 8:00pm",
+      "fecha_fin": "14 dic, 11:00pm",
+      "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
-      "imagenes": "",
-      "organizador": "",
+      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg",
+      "organizador": "Chillout",
       "boletos": [
         {
           "id_boleto": 60,
           "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 256,
+          "precio": 22.00,
           "evento": 6
         }
       ]
@@ -185,21 +173,20 @@
     {
       "id_evento": 7,
       "titulo": "TunUp BDay by Chamaco",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "",
+      "descripcion": "TunUp BDay by Chamaco",
+      "fecha_inicio": "15 nov, 8:00pm",
+      "fecha_fin": "15 nov, 11:00pm",
+      "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1729300230/8fab145bf2f3412b82fa6b477edff5fd.jpg.jpg",
-      "organizador": "",
+      "organizador": "Chillout",
       "boletos": [
         {
           "id_boleto": 70,
           "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 256,
+          "precio": 25.00,
           "evento": 7
         }
       ]
@@ -207,21 +194,20 @@
     {
       "id_evento": 8,
       "titulo": "Bad Bunny - Sech Tribute",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "chill out",
+      "descripcion": "Bad Bunny - Sech Tribute",
+      "fecha_inicio": "26 nov, 8:00pm",
+      "fecha_fin": "26 nov, 11:00pm",
+      "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
-      "imagenes": "https://images.pexels.com/photos/28978113/pexels-photo-28978113/free-photo-of-mujer-de-moda-posando-frente-al-muro-naranja-de-berlin.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "organizador": "",
+      "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1653338269/e98ec7458aaa4f63afbe6d8f074af39a.jpg.jpg",
+      "organizador": "Chillout",
       "boletos": [
         {
           "id_boleto": 80,
           "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 256,
+          "precio": 8.00,
           "evento": 8
         }
       ]
@@ -229,21 +215,62 @@
     {
       "id_evento": 9,
       "titulo": "Aventura Cerrando . Ciclos",
-      "descripcion": "",
+      "descripcion": "Después de tantas peticiones, ¡los Reyes de la Bachata llegan a Panamá con su Tour Cerrando Ciclos para hacerte vibrar con todos sus éxitos!",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "rod carew",
+      "ubicacion": "Estadio Rod Carew",
       "latitud": 9.040626826223216,
       "longitud": -79.54585420137316,
-      "imagenes": "https://live.staticflickr.com/2563/5758775767_7ab3729b69_n.jpg",
+      "imagenes": ["https://i.imgur.com/zkuv4DX.jpeg, https://i.imgur.com/3Qokvjq.jpeg"],
       "organizador": "",
       "boletos": [
         {
-          "id_boleto": 90,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
+          "id_boleto": 91,
+          "nombre": "Gradas",
+          "aforo": 4000,
+          "precio": 51.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 92,
+          "nombre": "Butaca Superior",
+          "aforo": 3000,
+          "precio": 81.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 93,
+          "nombre": "Butaca Inferior",
           "aforo": 2000,
-          "precio": 5.00,
+          "precio": 91.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 94,
+          "nombre": "Gold",
+          "aforo": 1000,
+          "precio": 111.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 95,
+          "nombre": "Platinum",
+          "aforo": 900,
+          "precio": 151.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 96,
+          "nombre": "VIP",
+          "aforo": 600,
+          "precio": 216.00,
+          "evento": 9
+        },
+        {
+          "id_boleto": 97,
+          "nombre": "Lounge",
+          "aforo": 300,
+          "precio": 286.00,
           "evento": 9
         }
       ]
@@ -251,21 +278,69 @@
     {
       "id_evento": 10,
       "titulo": "Bad Bunny World's Hottest Tour",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "romel fernandez",
+      "descripcion": "El próximo 22 de noviembre Bad Bunny llega a Panamá con su WorldsHottestTour",
+      "fecha_inicio": "22 nov, 8:00pm",
+      "fecha_fin": "22 nov, 11:59pm",
+      "ubicacion": "Estadio Rommel Fernández",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
-      "imagenes": "https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "imagenes": ["https://i.imgur.com/U7o6ly5.jpeg, https://i.imgur.com/kXEhMGu.jpeg"],
       "organizador": "",
       "boletos": [
         {
           "id_boleto": 100,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
+          "nombre": "Graderia Sur General",
+          "aforo": 5000,
+          "precio": 23.70,
+          "evento": 10
+        },
+        {
+          "id_boleto": 101,
+          "nombre": "Corner 1-4",
+          "aforo": 4000,
+          "precio": 30.70,
+          "evento": 10
+        },
+        {
+          "id_boleto": 102,
+          "nombre": "Oeste Preferencial",
+          "aforo": 3000,
+          "precio": 50.70,
+          "evento": 10
+        },
+        {
+          "id_boleto": 104,
+          "nombre": "VIP Preferencial",
           "aforo": 2000,
-          "precio": 5.00,
+          "precio": 70.70,
+          "evento": 10
+        },
+        {
+          "id_boleto": 105,
+          "nombre": "Silver",
+          "aforo": 1000,
+          "precio": 85.70,
+          "evento": 10
+        },
+        {
+          "id_boleto": 106,
+          "nombre": "Gold",
+          "aforo": 750,
+          "precio": 169.26,
+          "evento": 10
+        },
+        {
+          "id_boleto": 107,
+          "nombre": "Platinum",
+          "aforo": 500,
+          "precio": 251.75,
+          "evento": 10
+        },
+        {
+          "id_boleto": 108,
+          "nombre": "La Playa",
+          "aforo": 375,
+          "precio": 387.45,
           "evento": 10
         }
       ]
@@ -273,20 +348,47 @@
     {
       "id_evento": 11,
       "titulo": "Ferxxo NitroJam Tour",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "figali convention center",
+      "descripcion": "Llega a Panamá el Ferxoo Nitro Jam Tour de Feid",
+      "fecha_inicio": "9 dic, 8:00pm",
+      "fecha_fin": "9 dic, 11:59pm",
+      "ubicacion": "Figali Convention Center",
       "latitud": 8.939322248332081,
       "longitud": -79.54579663979568,
-      "imagenes": "",
+      "imagenes": ["https://i.imgur.com/6nRaCMG.jpeg, https://i.imgur.com/EI7CIUa.jpeg"],
       "organizador": "",
       "boletos": [
         {
-          "id_boleto": 110,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
+          "id_boleto": 111,
+          "nombre": "Silver",
+          "aforo": 3000,
+          "precio": 39.20,
+          "evento": 11
+        },
+        {
+          "id_boleto": 112,
+          "nombre": "Gold",
+          "aforo": 950,
+          "precio": 67.20,
+          "evento": 11
+        },
+        {
+          "id_boleto": 113,
+          "nombre": "Platinum",
+          "aforo": 509,
+          "precio": 89.60,
+          "evento": 11
+        },
+        {
+          "id_boleto": 114,
+          "nombre": "VIP",
+          "aforo": 300,
+          "precio": 134.00,
+          "evento": 11
+        },
+        {
+          "id_boleto": 115,
+          "nombre": "Sobelo Mor'",
+          "aforo": 257,
           "precio": 5.00,
           "evento": 11
         }
@@ -298,18 +400,18 @@
       "descripcion": "",
       "fecha_inicio": "3 nov, 8:00pm",
       "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "teatro pacific",
+      "ubicacion": "Teatro Pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
-      "imagenes": "",
+      "imagenes": "https://i.imgur.com/SyoDArn.jpeg",
       "organizador": "",
       "boletos": [
         {
           "id_boleto": 120,
-          "nombre": "Entrada General",
+          "nombre": "GENERAL Admisión General",
           "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 120,
+          "precio": 25.00,
           "evento": 12
         }
       ]
@@ -317,21 +419,21 @@
     {
       "id_evento": 13,
       "titulo": "Stand-Up Comedy Sessions",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "teatro pacific",
+      "descripcion": "Regresa el StandUpComedySession un espectáculo humorístico que cuenta con la participación de cuatro talentosos comediantes: Jossie Jiménez, Joel Silva, Cedric Miró y Simón Tejeira. Cada uno de ellos trae nuevas y originales rutinas que garantizan risas y entretenimiento. La dinámica entre los cuatro comediantes promete una noche llena de diversión y sorpresas que no te puedes perder.",
+      "fecha_inicio": "30 oct, 7:30pm",
+      "fecha_fin": "30 oct, 10:00pm",
+      "ubicacion": "Teatro Pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
-      "imagenes": "",
-      "organizador": "",
+      "imagenes": "https://i.imgur.com/SEzbWJR.jpeg",
+      "organizador": "Merecumbe",
       "boletos": [
         {
           "id_boleto": 60,
-          "nombre": "Entrada General",
+          "nombre": "Entrada",
           "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "aforo": 120,
+          "precio": 31.00,
           "evento": 13
         }
       ]
@@ -339,21 +441,20 @@
     {
       "id_evento": 14,
       "titulo": "Sin ganas de crecer",
-      "descripcion": "",
+      "descripcion": "“Sin Ganas de Crecer” plantea los conflictos de estos hombres; tres visiones acerca de las mujeres, la vida, el amor y el sexo, en una obra cargada de humor, testosterona y secretos masculinos que pocos han revelado.",
       "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "teatro la estacion",
+      "fecha_fin": "28 nov, 8:00pm",
+      "ubicacion": "Teatro Pacific",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
-      "imagenes": "",
-      "organizador": "",
+      "imagenes": "https://i.imgur.com/p3T0ERI.jpeg",
+      "organizador": "Benjamin Cohen",
       "boletos": [
         {
           "id_boleto": 60,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
+          "nombre": "GENERAL Admisión General",
           "aforo": 2000,
-          "precio": 5.00,
+          "precio": 25.00,
           "evento": 14
         }
       ]
@@ -361,21 +462,20 @@
     {
       "id_evento": 15,
       "titulo": "Closer",
-      "descripcion": "",
-      "fecha_inicio": "3 nov, 8:00pm",
-      "fecha_fin": "3 nov, 11:00pm",
-      "ubicacion": "teatro la estacion",
+      "descripcion": "En Closer, las mentiras seducen más que la verdad, y cada palabra lleva consigo una promesa que nunca se cumple. Porque en el amor y el deseo, todo es un juego… hasta que alguien se quiebra.",
+      "fecha_inicio": "22 oct, 8:00pm",
+      "fecha_fin": "31 oct, 8:00pm",
+      "ubicacion": "Teatro la Estacion",
       "latitud": 8.986286825542722,
       "longitud": -79.52370029666683,
-      "imagenes": "",
-      "organizador": "",
+      "imagenes": "https://i.imgur.com/b5SvmJp.jpeg",
+      "organizador": "Andres Clemente",
       "boletos": [
         {
           "id_boleto": 60,
-          "nombre": "Entrada General",
-          "descripcion": "Acceso general al festival.",
-          "aforo": 2000,
-          "precio": 5.00,
+          "nombre": "GENERAL Admisión General",
+          "aforo": 175,
+          "precio": 24.40,
           "evento": 15
         }
       ]

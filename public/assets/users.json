@@ -1,4 +1,6 @@
-{
-  "user": "admin@gmail.com",
-  "pass": "admin"
-}
+[
+  {
+    "user": "admin@gmail.com",
+    "pass": "admin"
+  }
+]
