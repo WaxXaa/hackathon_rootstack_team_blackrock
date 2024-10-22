@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "../components/navbar/Navbar.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import { AuthProvider } from "../context/AuthContext";
 
@@ -28,13 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <AuthProvider>
-        <NavBar />
-        <main className="flex-1 flex items-center justify-center">{children}</main>
-        <Footer />
+          <main className="flex-1 flex items-center justify-center">{children}</main>
+          <Footer />
         </AuthProvider>
       </body>
     </html>
