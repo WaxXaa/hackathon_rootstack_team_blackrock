@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useRouter } from 'next/navigation';
-import { BackgroundGradientAnimation } from '../../components/ui/background-gradient-animation'; // Asegúrate de que esta ruta sea correcta
-import Navbar from '../../components/navbar/Navbar'; // Ajusta esta ruta según la ubicación de tu Navbar
+import { BackgroundGradientAnimation } from '../../components/ui/background-gradient-animation';
 
 export default function Login() {
   const router = useRouter();
@@ -26,9 +25,8 @@ export default function Login() {
 
   return (
     <BackgroundGradientAnimation>
-      <Navbar /> {/* Aquí se añade el Navbar */}
-      <div className="flex min-h-full flex-1 flex-col justify-center items-center">
-        <div className="bg-white rounded-lg shadow-lg p-8 w-11/12 max-w-md">
+      <div className="flex min-h-screen flex-col justify-center items-center relative"> {/* Cambié min-h-full a min-h-screen */}
+        <div className="bg-white rounded-lg shadow-lg p-8 w-11/12 max-w-md z-10">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             <img
               alt="Your Company"

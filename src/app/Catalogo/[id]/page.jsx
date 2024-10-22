@@ -1,9 +1,9 @@
-// app/events/[id]/page.jsx
 'use client'
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Carousel } from "@material-tailwind/react";
 import Cart from "../../Cart/page.jsx";
+import Navbar from '../../../components/navbar/Navbar';
 
 
 const EventDetails = () => {
@@ -51,11 +51,9 @@ const EventDetails = () => {
       </div>
     );
   }
-  // Object to store selected ticket quantities
 
   // Handle change in the quantity of tickets for a specific ticket type
   const handleQuantityChange = (boleto, quantity) => {
-    // Ensure the quantity doesn't exceed the available tickets
     if (quantity <= boleto.aforo) {
       setSelectedTickets({
         ...selectedTickets,
@@ -77,29 +75,30 @@ const EventDetails = () => {
       setError("Debes seleccionar al menos un boleto.");
       return;
     }
-
-    // Continue with the purchase logic...
-    setShowCart(true)
+    setShowCart(true);
   };
-
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Navbar /> {/* Agrega el Navbar aquí */}
       <div className="container mx-auto px-4 py-8">
         {/* Event Header */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
           <div className="relative h-96">
-            <Carousel className="rounded-xl">
-              {(Array.isArray(event.imagenes) ? event.imagenes : [event.imagenes]).map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  alt={`Imagen ${index}`}
-                  className="w-full h-auto"
-                />
-              ))}
+          <Carousel className="rounded-xl">
+  {(Array.isArray(event.imagenes) ? event.imagenes : [event.imagenes]).map((image, index) => (
+    <div key={index} className="flex justify-center items-center w-full h-full">
+      <div className="w-[380px] h-[380px]">
+        <img
+          src={image} // Aquí 'image' está definido en el map()
+          alt={`Imagen ${index}`}
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+  ))}
+</Carousel>
 
-            </Carousel>
           </div>
           <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">{event.titulo}</h1>
@@ -107,9 +106,7 @@ const EventDetails = () => {
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              <p><span className='font-bold'>{event.fecha_inicio} </span>   hasta    <span className='font-bold'>{event.fecha_fin}</span> </p>
-
-
+              <p><span className='font-bold'>{event.fecha_inicio} </span>   hasta    <span className='font-bold'>{event.fecha_fin}</span></p>
             </div>
             {event.ubicacion && (
               <div className="flex items-center text-gray-600 mb-4">
@@ -120,21 +117,19 @@ const EventDetails = () => {
                 <span>{event.ubicacion}</span>
               </div>
             )}
+            {event.descripcion && (
+              <p className="text-gray-600 mb-6">{event.descripcion}</p>
+            )}
             <iframe
               className="relative h-72 w-1/2"
               src={event.mapa}
-
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Google Maps Embed"
             />
-
-
-            {event.descripcion && (
-              <p className="text-gray-600 mb-6">{event.descripcion}</p>
-            )}
+            
           </div>
         </div>
 

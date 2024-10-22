@@ -9,6 +9,7 @@
       "ubicacion": "COS Sports Plaza",
       "latitud": 9.034482181342339,
       "longitud": -79.44308616144887,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6562.0731368044035!2d-79.44563962323474!3d9.034339138901702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facab007402bd41%3A0xcfa1e4d28db4d602!2sCOS%20Sports%20Plaza!5e1!3m2!1sen!2spa!4v1729590502848!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/83OJ8TW.jpeg",
       "organizador": "Rides and Coffee",
       "boletos": [
@@ -30,8 +31,8 @@
       "ubicacion": "Centro de Convenciones Atlapa",
       "latitud": 8.989796452686281,
       "longitud": -79.50011527679074,
-      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8180311567053!2d-79.50296827498168!3d8.98888599107083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca909348b6589%3A0xbc82fb557d6656e4!2sCentro%20de%20Convenciones%20Atlapa!5e0!3m2!1ses-419!2spa!4v1729574177075!5m2!1ses-419!2spa",
-      "imagenes": ["https://i.imgur.com/tMZwT8Z.jpeg","https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg"],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.7246885741815!2d-79.50103708032486!3d8.988887324076195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca909348b6589%3A0xbc82fb557d6656e4!2sAtlapa%20Convention%20Center!5e1!3m2!1sen!2spa!4v1729592418816!5m2!1sen!2spa",
+      "imagenes": "https://i.imgur.com/tMZwT8Z.jpeg",
       "organizador": "",
       "boletos": [
         {
@@ -52,6 +53,7 @@
       "ubicacion": "Autodromo de Panama",
       "latitud": 40.7127753,
       "longitud": -74.0059728,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9774096042433!2d-79.86568091919828!3d8.705409042129393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fac9301695d3745%3A0xd5ac35186fb00149!2sAut%C3%B3dromo%20Panam%C3%A1%20Sajalices!5e1!3m2!1sen!2spa!4v1729590430229!5m2!1sen!2spa",
       "imagenes": ["https://i.imgur.com/qz4eFil.jpeg", "https://i.imgur.com/cwy31xY.jpeg"],
       "mensaje": "Explora nuevos libros y conoce a tus autores favoritos.",
       "organizador": "",
@@ -116,6 +118,7 @@
       "ubicacion": "Parque Municipal Summit",
       "latitud": 9.06551679758845,
       "longitud": -79.64963904863998,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1159.9231030572225!2d-79.64984506111752!3d9.064886440756615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab58caac55213d%3A0x27e319741adf5468!2sParque%20Summit-I!5e1!3m2!1sen!2spa!4v1729590611850!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/qxIeWOX.jpeg",
       "organizador": "",
       "boletos": [
@@ -137,6 +140,7 @@
       "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.7749345887205!2d-79.55363292323506!3d8.940401290365958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaf5aee47213f%3A0xcbe1edbff695d9ce!2sChill%20out%20discotheque!5e1!3m2!1sen!2spa!4v1729590639313!5m2!1sen!2spa",
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1723265312/3103ea61346a4238ae0a4655340228b4.jpg.jpg",
       "organizador": "Chillout",
       "boletos": [
@@ -158,6 +162,7 @@
       "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.7749345887205!2d-79.55363292323506!3d8.940401290365958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaf5aee47213f%3A0xcbe1edbff695d9ce!2sChill%20out%20discotheque!5e1!3m2!1sen!2spa!4v1729590639313!5m2!1sen!2spa",
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg",
       "organizador": "Chillout",
       "boletos": [
@@ -179,6 +184,7 @@
       "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.7749345887205!2d-79.55363292323506!3d8.940401290365958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaf5aee47213f%3A0xcbe1edbff695d9ce!2sChill%20out%20discotheque!5e1!3m2!1sen!2spa!4v1729590639313!5m2!1sen!2spa",
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1729300230/8fab145bf2f3412b82fa6b477edff5fd.jpg.jpg",
       "organizador": "Chillout",
       "boletos": [
@@ -200,6 +206,7 @@
       "ubicacion": "Chill-out Amador",
       "latitud": 8.940399610141583,
       "longitud": -79.55106559721074,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.7749345887205!2d-79.55363292323506!3d8.940401290365958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaf5aee47213f%3A0xcbe1edbff695d9ce!2sChill%20out%20discotheque!5e1!3m2!1sen!2spa!4v1729590639313!5m2!1sen!2spa",
       "imagenes": "https://res.cloudinary.com/radpanama/image/upload/v1653338269/e98ec7458aaa4f63afbe6d8f074af39a.jpg.jpg",
       "organizador": "Chillout",
       "boletos": [
@@ -221,6 +228,7 @@
       "ubicacion": "Estadio Rod Carew",
       "latitud": 9.040626826223216,
       "longitud": -79.54585420137316,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6561.975285099817!2d-79.54811407323487!3d9.039711038817567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab57e246791563%3A0x76266b29044c6382!2sRod%20Carew%20National%20Stadium!5e1!3m2!1sen!2spa!4v1729590687604!5m2!1sen!2spa",
       "imagenes": ["https://i.imgur.com/zkuv4DX.jpeg", "https://i.imgur.com/3Qokvjq.jpeg"],
       "organizador": "",
       "boletos": [
@@ -284,6 +292,7 @@
       "ubicacion": "Estadio Rommel Fernández",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6562.04530347705!2d-79.47436810885392!3d9.035867465751931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaa002ddf159b%3A0xd43f2be9988a5197!2sEstadio%20Rommel%20Fern%C3%A1ndez%20Guti%C3%A9rrez!5e1!3m2!1sen!2spa!4v1729590714309!5m2!1sen!2spa",
       "imagenes": ["https://i.imgur.com/U7o6ly5.jpeg", "https://i.imgur.com/kXEhMGu.jpeg"],
       "organizador": "",
       "boletos": [
@@ -354,6 +363,7 @@
       "ubicacion": "Figali Convention Center",
       "latitud": 8.939322248332081,
       "longitud": -79.54579663979568,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.907089800038!2d-79.5472745109722!3d8.938223447418675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8facaf4505d55e77%3A0xc49a64e5f3480699!2sFigali%20Convention%20Center!5e1!3m2!1sen!2spa!4v1729590739367!5m2!1sen!2spa",
       "imagenes": ["https://i.imgur.com/6nRaCMG.jpeg", "https://i.imgur.com/EI7CIUa.jpeg"],
       "organizador": "",
       "boletos": [
@@ -403,6 +413,7 @@
       "ubicacion": "Teatro Pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.097799488439!2d-79.51698600885625!3d8.97789536680089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca93cb7c946bb%3A0xd424cc43ef2a75f1!2sTeatro%20Pacific!5e1!3m2!1sen!2spa!4v1729590764754!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/SyoDArn.jpeg",
       "organizador": "",
       "boletos": [
@@ -425,6 +436,7 @@
       "ubicacion": "Teatro Pacific",
       "latitud": 8.977899694218285,
       "longitud": -79.51212657425134,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.097799488439!2d-79.51698600885625!3d8.97789536680089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca93cb7c946bb%3A0xd424cc43ef2a75f1!2sTeatro%20Pacific!5e1!3m2!1sen!2spa!4v1729590764754!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/SEzbWJR.jpeg",
       "organizador": "Merecumbe",
       "boletos": [
@@ -447,6 +459,7 @@
       "ubicacion": "Teatro Pacific",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.097799488439!2d-79.51698600885625!3d8.97789536680089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca93cb7c946bb%3A0xd424cc43ef2a75f1!2sTeatro%20Pacific!5e1!3m2!1sen!2spa!4v1729590764754!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/p3T0ERI.jpeg",
       "organizador": "Benjamin Cohen",
       "boletos": [
@@ -468,6 +481,7 @@
       "ubicacion": "Teatro la Estacion",
       "latitud": 8.986286825542722,
       "longitud": -79.52370029666683,
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.097799488439!2d-79.51698600885625!3d8.97789536680089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8faddd5cc11%3A0xd5a547bd3d068b12!2sTeatro%20La%20Estaci%C3%B3n!5e1!3m2!1sen!2spa!4v1729590799548!5m2!1sen!2spa",
       "imagenes": "https://i.imgur.com/b5SvmJp.jpeg",
       "organizador": "Andres Clemente",
       "boletos": [
