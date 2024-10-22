@@ -52,7 +52,7 @@
       "ubicacion": "Autodromo de Panama",
       "latitud": 40.7127753,
       "longitud": -74.0059728,
-      "imagenes": ["https://i.imgur.com/qz4eFil.jpeg, https://i.imgur.com/cwy31xY.jpeg"],
+      "imagenes": ["https://i.imgur.com/qz4eFil.jpeg", "https://i.imgur.com/cwy31xY.jpeg"],
       "mensaje": "Explora nuevos libros y conoce a tus autores favoritos.",
       "organizador": "",
       "boletos": [
@@ -221,7 +221,7 @@
       "ubicacion": "Estadio Rod Carew",
       "latitud": 9.040626826223216,
       "longitud": -79.54585420137316,
-      "imagenes": ["https://i.imgur.com/zkuv4DX.jpeg, https://i.imgur.com/3Qokvjq.jpeg"],
+      "imagenes": ["https://i.imgur.com/zkuv4DX.jpeg", "https://i.imgur.com/3Qokvjq.jpeg"],
       "organizador": "",
       "boletos": [
         {
@@ -284,7 +284,7 @@
       "ubicacion": "Estadio Rommel Fernández",
       "latitud": 9.035876130567978,
       "longitud": -79.46948854220851,
-      "imagenes": ["https://i.imgur.com/U7o6ly5.jpeg, https://i.imgur.com/kXEhMGu.jpeg"],
+      "imagenes": ["https://i.imgur.com/U7o6ly5.jpeg", "https://i.imgur.com/kXEhMGu.jpeg"],
       "organizador": "",
       "boletos": [
         {
@@ -354,7 +354,7 @@
       "ubicacion": "Figali Convention Center",
       "latitud": 8.939322248332081,
       "longitud": -79.54579663979568,
-      "imagenes": ["https://i.imgur.com/6nRaCMG.jpeg, https://i.imgur.com/EI7CIUa.jpeg"],
+      "imagenes": ["https://i.imgur.com/6nRaCMG.jpeg", "https://i.imgur.com/EI7CIUa.jpeg"],
       "organizador": "",
       "boletos": [
         {
