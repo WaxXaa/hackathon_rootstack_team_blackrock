@@ -30,7 +30,8 @@
       "ubicacion": "Centro de Convenciones Atlapa",
       "latitud": 8.989796452686281,
       "longitud": -79.50011527679074,
-      "imagenes": ["https://i.imgur.com/tMZwT8Z.jpeg"],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8180311567053!2d-79.50296827498168!3d8.98888599107083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca909348b6589%3A0xbc82fb557d6656e4!2sCentro%20de%20Convenciones%20Atlapa!5e0!3m2!1ses-419!2spa!4v1729574177075!5m2!1ses-419!2spa",
+      "imagenes": ["https://i.imgur.com/tMZwT8Z.jpeg","https://res.cloudinary.com/radpanama/image/upload/v1724459990/49dfd3c91051428ca501625db405b599.jpg.jpg"],
       "organizador": "",
       "boletos": [
         {

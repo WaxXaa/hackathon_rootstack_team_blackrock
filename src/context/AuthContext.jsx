@@ -9,14 +9,17 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     const response = await fetch("/assets/users.json");
     const users = await response.json();
-    const foundUser = users.find(user => user.email === email && user.password === password);
-
+  
+    const foundUser = users.find(user => user.user === email && user.pass === password);
+  
     if (foundUser) {
+      console.log('ok');
       setUser(foundUser);
       return true;
     }
     return false;
   };
+  
 
   const logout = () => {
     setUser(null);
