@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <AuthProvider>
         <NavBar />
-        <main>{children}</main>
+        <main className="flex-1 flex items-center justify-center">{children}</main>
         <Footer />
         </AuthProvider>
       </body>
