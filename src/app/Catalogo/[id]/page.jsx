@@ -3,8 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Carousel } from "@material-tailwind/react";
 import Cart from "../../Cart/page.jsx";
-import Navbar from '../../../components/navbar/Navbar';
-
+// import Navbar from '../../../components/navbar/Navbar'; // Línea eliminada
 
 const EventDetails = () => {
   const { id } = useParams();
@@ -80,25 +79,24 @@ const EventDetails = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar /> {/* Agrega el Navbar aquí */}
+      {/* <Navbar /> {/* Agrega el Navbar aquí */}  {/* Línea eliminada */}
       <div className="container mx-auto px-4 py-8">
         {/* Event Header */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
           <div className="relative h-96">
-          <Carousel className="rounded-xl">
-  {(Array.isArray(event.imagenes) ? event.imagenes : [event.imagenes]).map((image, index) => (
-    <div key={index} className="flex justify-center items-center w-full h-full">
-      <div className="w-[380px] h-[380px]">
-        <img
-          src={image} // Aquí 'image' está definido en el map()
-          alt={`Imagen ${index}`}
-          className="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  ))}
-</Carousel>
-
+            <Carousel className="rounded-xl">
+              {(Array.isArray(event.imagenes) ? event.imagenes : [event.imagenes]).map((image, index) => (
+                <div key={index} className="flex justify-center items-center w-full h-full">
+                  <div className="w-[380px] h-[380px]">
+                    <img
+                      src={image} // Aquí 'image' está definido en el map()
+                      alt={`Imagen ${index}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+              ))}
+            </Carousel>
           </div>
           <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">{event.titulo}</h1>
@@ -129,7 +127,6 @@ const EventDetails = () => {
               referrerPolicy="no-referrer-when-downgrade"
               title="Google Maps Embed"
             />
-            
           </div>
         </div>
 

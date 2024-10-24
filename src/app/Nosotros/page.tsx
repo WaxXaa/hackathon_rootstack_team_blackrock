@@ -1,7 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "../../components/ui/hero-highlight";
-import Navbar from '../../components/navbar/Navbar'; // Importa el Navbar
+// Eliminar la importación del Navbar
+// import Navbar from '../../components/navbar/Navbar'; 
 
 const posts = [
   {
@@ -51,7 +52,8 @@ const posts = [
 export default function Example() {
   return (
     <div className="bg-white py-8 sm:py-8">
-      <Navbar /> {/* Agrega el Navbar aquí */}
+      {/* Eliminar el Navbar aquí */}
+      {/* <Navbar /> */}
       <HeroHighlight>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <motion.h2

@@ -53,7 +53,7 @@ export const HeroHighlight = ({
               transparent 100%
             )
           `,
-          backgroundColor: "var(--background)", // O el color que prefieras
+          backgroundColor: "var(--backgroundcursor)", // O el color que prefieras
         }}
       />
       <div className={cn("relative z-20", className)}>{children}</div>

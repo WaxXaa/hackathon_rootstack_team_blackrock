@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '../components/navbar/Navbar';
 
 function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <Navbar />
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold">Bienvenido a PanaEventos</h1>
