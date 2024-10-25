@@ -1,6 +1,6 @@
 // components/contbg.tsx
 import React, { useState } from 'react';
-import { BackgroundGradientAnimation } from '../components/ui/background-gradient-animation';
+import { BackgroundGradientAnimation } from './ui/background-gradient-animation';
 
 const ContBG: React.FC = () => {
   const [email, setEmail] = useState('');

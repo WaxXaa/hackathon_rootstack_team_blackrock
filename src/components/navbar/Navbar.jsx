@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="block w-full max-w-screen-lg px-6 py-4 mx-auto bg-white bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-4 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+    <nav className="block w-full max-w-screen-lg px-6 py-4 mx-auto bg-neutral-100 bg-opacity-90 sticky top-3 shadow lg:px-8 lg:py-4 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
       <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
         <div className="flex items-center mr-4"> {/* Added flex container */}
           <img

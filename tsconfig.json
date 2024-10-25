@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/page.jsx",
+    "src/app/page.tsx",
     "src/app/layout.tsx",
     "src/app/Catalogo/page.jsx"
 , "src/app/Cart/page.jsx"  ],
